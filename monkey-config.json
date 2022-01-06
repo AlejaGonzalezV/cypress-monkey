@@ -1,0 +1,25 @@
+{
+    "projectId":"Monkey",
+    "baseUrl":"https://dev.safefleetcloud.us/media-management/",
+    "env":{
+        "appName":"App prueba",
+        "events":50,
+        "delay":300,
+        "seed": 1919,
+        "pctClicks":36,
+        "pctSelectors":16,
+        "pctKeys":16,
+        "pctSpKeys":16,
+        "pctPgNav":16,
+        "password": ""
+    },
+    "integrationFolder": "./cypress/integration/monkey",
+    "pluginsFile": "./cypress/plugins/index.js",
+    "pageLoadTimeout":120000,
+    "defaultCommandTimeout":120000,
+    "testFiles": "monkey.js",
+    "videosFolder":"./results",
+    "password": "Colom2020*",
+    "viewportWidth": 1920,
+    "viewportHeight": 1080
+}

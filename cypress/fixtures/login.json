@@ -1,0 +1,5 @@
+{
+    "inputEmail": "#Input_Email",
+    "inputPassword": "#Input_Password",
+    "btnLogin": "[data-testid=button-login]"
+}
